@@ -1,2 +1,1 @@
-# minicad_startingpoint
-APL
+# mini cad
