@@ -249,6 +249,30 @@ model/square.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/model/square.cpp.s
 .PHONY : model/square.cpp.s
 
+model/triangle.o: model/triangle.cpp.o
+.PHONY : model/triangle.o
+
+# target to build an object file
+model/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/model/triangle.cpp.o
+.PHONY : model/triangle.cpp.o
+
+model/triangle.i: model/triangle.cpp.i
+.PHONY : model/triangle.i
+
+# target to preprocess a source file
+model/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/model/triangle.cpp.i
+.PHONY : model/triangle.cpp.i
+
+model/triangle.s: model/triangle.cpp.s
+.PHONY : model/triangle.s
+
+# target to generate assembly for a file
+model/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/model/triangle.cpp.s
+.PHONY : model/triangle.cpp.s
+
 ui/commands/command_stack.o: ui/commands/command_stack.cpp.o
 .PHONY : ui/commands/command_stack.o
 
@@ -297,6 +321,54 @@ ui/commands/create_circle_command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.s
 .PHONY : ui/commands/create_circle_command.cpp.s
 
+ui/commands/create_square_command.o: ui/commands/create_square_command.cpp.o
+.PHONY : ui/commands/create_square_command.o
+
+# target to build an object file
+ui/commands/create_square_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o
+.PHONY : ui/commands/create_square_command.cpp.o
+
+ui/commands/create_square_command.i: ui/commands/create_square_command.cpp.i
+.PHONY : ui/commands/create_square_command.i
+
+# target to preprocess a source file
+ui/commands/create_square_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.i
+.PHONY : ui/commands/create_square_command.cpp.i
+
+ui/commands/create_square_command.s: ui/commands/create_square_command.cpp.s
+.PHONY : ui/commands/create_square_command.s
+
+# target to generate assembly for a file
+ui/commands/create_square_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.s
+.PHONY : ui/commands/create_square_command.cpp.s
+
+ui/commands/create_triangle_command.o: ui/commands/create_triangle_command.cpp.o
+.PHONY : ui/commands/create_triangle_command.o
+
+# target to build an object file
+ui/commands/create_triangle_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o
+.PHONY : ui/commands/create_triangle_command.cpp.o
+
+ui/commands/create_triangle_command.i: ui/commands/create_triangle_command.cpp.i
+.PHONY : ui/commands/create_triangle_command.i
+
+# target to preprocess a source file
+ui/commands/create_triangle_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.i
+.PHONY : ui/commands/create_triangle_command.cpp.i
+
+ui/commands/create_triangle_command.s: ui/commands/create_triangle_command.cpp.s
+.PHONY : ui/commands/create_triangle_command.s
+
+# target to generate assembly for a file
+ui/commands/create_triangle_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s
+.PHONY : ui/commands/create_triangle_command.cpp.s
+
 ui/commands/remove_shape_command.o: ui/commands/remove_shape_command.cpp.o
 .PHONY : ui/commands/remove_shape_command.o
 
@@ -320,6 +392,30 @@ ui/commands/remove_shape_command.s: ui/commands/remove_shape_command.cpp.s
 ui/commands/remove_shape_command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.s
 .PHONY : ui/commands/remove_shape_command.cpp.s
+
+ui/commands/scale_shape_command.o: ui/commands/scale_shape_command.cpp.o
+.PHONY : ui/commands/scale_shape_command.o
+
+# target to build an object file
+ui/commands/scale_shape_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o
+.PHONY : ui/commands/scale_shape_command.cpp.o
+
+ui/commands/scale_shape_command.i: ui/commands/scale_shape_command.cpp.i
+.PHONY : ui/commands/scale_shape_command.i
+
+# target to preprocess a source file
+ui/commands/scale_shape_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.i
+.PHONY : ui/commands/scale_shape_command.cpp.i
+
+ui/commands/scale_shape_command.s: ui/commands/scale_shape_command.cpp.s
+.PHONY : ui/commands/scale_shape_command.s
+
+# target to generate assembly for a file
+ui/commands/scale_shape_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.s
+.PHONY : ui/commands/scale_shape_command.cpp.s
 
 ui/commands/translate_shape_command.o: ui/commands/translate_shape_command.cpp.o
 .PHONY : ui/commands/translate_shape_command.o
@@ -489,15 +585,27 @@ help:
 	@echo "... model/square.o"
 	@echo "... model/square.i"
 	@echo "... model/square.s"
+	@echo "... model/triangle.o"
+	@echo "... model/triangle.i"
+	@echo "... model/triangle.s"
 	@echo "... ui/commands/command_stack.o"
 	@echo "... ui/commands/command_stack.i"
 	@echo "... ui/commands/command_stack.s"
 	@echo "... ui/commands/create_circle_command.o"
 	@echo "... ui/commands/create_circle_command.i"
 	@echo "... ui/commands/create_circle_command.s"
+	@echo "... ui/commands/create_square_command.o"
+	@echo "... ui/commands/create_square_command.i"
+	@echo "... ui/commands/create_square_command.s"
+	@echo "... ui/commands/create_triangle_command.o"
+	@echo "... ui/commands/create_triangle_command.i"
+	@echo "... ui/commands/create_triangle_command.s"
 	@echo "... ui/commands/remove_shape_command.o"
 	@echo "... ui/commands/remove_shape_command.i"
 	@echo "... ui/commands/remove_shape_command.s"
+	@echo "... ui/commands/scale_shape_command.o"
+	@echo "... ui/commands/scale_shape_command.i"
+	@echo "... ui/commands/scale_shape_command.s"
 	@echo "... ui/commands/translate_shape_command.o"
 	@echo "... ui/commands/translate_shape_command.i"
 	@echo "... ui/commands/translate_shape_command.s"

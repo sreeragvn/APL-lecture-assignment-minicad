@@ -23,7 +23,7 @@ public:
 
 private:
     model::Shape* shape;
-    float factor = 0;
+    float factor = 1;
 };
 
 

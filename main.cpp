@@ -20,6 +20,7 @@
 #include "logger.h"
 
 #include "create_circle_command.h"
+#include "scale_shape_command.h"
 #include "translate_shape_command.h"
 #include "remove_shape_command.h"
 // TODO: add includes from new header files here
@@ -149,6 +150,20 @@ int main() {
 
     // TODO: add menu entry for scaling here. Use the translate menu item above as a guide.
     // ...
+    // MENU: translation
+    mainMenu.addEntry(ui::MenuEntry("Scale", 's', [&]()->void{
+        echo();
+        console.clear();
+        console.print("Choose shape: ");
+        const std::size_t shapeNumber = std::stoi(console.getStr().c_str());
+        if(shapeNumber >= shapes.size())
+            return;
+
+        console.print("factor:");
+        int factor = std::stoi(console.getStr().c_str());
+        ui::ScaleShapeCommand* c = new ui::ScaleShapeCommand(shapes[shapeNumber], factor);
+        commandStack.execute(c);
+    }));
 
     // MENU: remove
     mainMenu.addEntry(ui::MenuEntry("Delete", 'd', [&]()->void{

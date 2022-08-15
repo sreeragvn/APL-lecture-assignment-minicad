@@ -43,5 +43,9 @@ void Circle::draw(ui::Canvas* canvas) const
     canvas->printAtPos(center.x, center.y, std::to_string(id));
     canvas->refresh();
 }
-
+void Circle::scale(float factor)
+{
+    radius = radius * factor;
+    observer->update();
+}
 }

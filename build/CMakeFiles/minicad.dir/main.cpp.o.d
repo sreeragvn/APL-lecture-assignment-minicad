@@ -138,5 +138,6 @@ CMakeFiles/minicad.dir/main.cpp.o: \
  /workspaces/minicad_startingpoint/ui/ncurses/console.h \
  /workspaces/minicad_startingpoint/ui/commands/create_circle_command.h \
  /workspaces/minicad_startingpoint/model/shape.h \
+ /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.h \
  /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.h \
  /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.h

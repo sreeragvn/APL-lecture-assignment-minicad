@@ -26,6 +26,11 @@
 },
 {
   "directory": "/workspaces/minicad_startingpoint/build",
+  "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/model/triangle.cpp.o -c /workspaces/minicad_startingpoint/model/triangle.cpp",
+  "file": "/workspaces/minicad_startingpoint/model/triangle.cpp"
+},
+{
+  "directory": "/workspaces/minicad_startingpoint/build",
   "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp",
   "file": "/workspaces/minicad_startingpoint/ui/commands/command_stack.cpp"
 },
@@ -36,8 +41,23 @@
 },
 {
   "directory": "/workspaces/minicad_startingpoint/build",
+  "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp",
+  "file": "/workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp"
+},
+{
+  "directory": "/workspaces/minicad_startingpoint/build",
+  "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp",
+  "file": "/workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp"
+},
+{
+  "directory": "/workspaces/minicad_startingpoint/build",
   "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp",
   "file": "/workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp"
+},
+{
+  "directory": "/workspaces/minicad_startingpoint/build",
+  "command": "/usr/bin/c++  -I/workspaces/minicad_startingpoint/. -I/workspaces/minicad_startingpoint/model -I/workspaces/minicad_startingpoint/ui/ncurses -I/workspaces/minicad_startingpoint/ui/commands -I/workspaces/minicad_startingpoint/src -g -Wall -std=gnu++17 -o CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp",
+  "file": "/workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp"
 },
 {
   "directory": "/workspaces/minicad_startingpoint/build",

@@ -13,6 +13,7 @@ class Circle : public Shape
 public:
     Circle(int x, int y, double r, Observer* observer);
     virtual void draw(ui::Canvas* canvas) const;
+    void scale(float factor);
 
 private:
     double radius = 1.0;
