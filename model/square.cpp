@@ -27,4 +27,9 @@ void Square::draw(ui::Canvas* canvas) const
     canvas->refresh();
 }
 
+void Square::scale(float factor)
+{
+
+}
+
 }

@@ -26,6 +26,7 @@ public:
 
     virtual void draw(ui::Canvas* win) const = 0;
     virtual void translate(float dx, float dy);
+    virtual void scale(float factor); 
     // TODO: add a scale method here. This method must be pure virtual and implemented in the specific shapes.
     // ...
 
