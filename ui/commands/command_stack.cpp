@@ -2,7 +2,7 @@
 
 #include <cstdint>
 #include <string>
-
+//logger dependency(logger-global)only for debugging(is removed in production code)
 #include "logger.h"
 
 namespace tubs::ui
@@ -11,18 +11,25 @@ namespace tubs::ui
 void CommandStack::execute(Command* command) {
     command->execute();
 
-    // TODO: manipulate undo / redo stack here
-    // ...
+    undoStack.push(command);
+    while (!redoStack.empty())
+        redoStack.pop();
+ 
+   
 
-    print("CommandStack::exeucte()");
+    // TODO: manipulate undo / redo stack here
+
+print("CommandStack::exeucte()");
 }
 
 void CommandStack::undo() {
     if (undoStack.empty())
         return;
-
-    // TODO: manipulate undo / redo stack here
-    // ...
+    
+    undoStack.top()->undo();
+    redoStack.push(undoStack.top());
+    undoStack.pop();
+  
 
     print("CommandStack::undo()");
 }
@@ -30,9 +37,11 @@ void CommandStack::undo() {
 void CommandStack::redo() {
     if (redoStack.empty())
         return;
-
-    // TODO: manipulate undo / redo stack here
-    // ...
+    
+    redoStack.top()->redo();
+    undoStack.push(redoStack.top());
+    redoStack.pop();  
+  
 
     print("CommandStack::redo()");
 }

@@ -24,13 +24,15 @@ void RemoveShapeCommand::undo() {
     shapes.push_back(shape);
 
     observer->update();
+    // model::Shape::counter--;
 }
 
 void RemoveShapeCommand::redo() {
     shape = shapes.back();
     shapes.pop_back();
-
+    // model::Shape::counter++;
     observer->update();
+
 }
 
 }

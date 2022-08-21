@@ -15,11 +15,14 @@
 
 #include "circle.h"
 #include "square.h"
+#include "triangle.h"
 
 #include "command_stack.h"
 #include "logger.h"
 
 #include "create_circle_command.h"
+#include "create_square_command.h"
+#include "create_triangle_command.h"
 #include "scale_shape_command.h"
 #include "translate_shape_command.h"
 #include "remove_shape_command.h"
@@ -72,6 +75,38 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
 
     // TODO: add menu entries for new shape creations (square, triangle) here. Use the Create Circle menu item above as a guide.
     // ...
+
+    //Square entry to the menu
+        createMenu.addEntry(ui::MenuEntry("Square", 's', [=]()->void {
+        echo();
+        console->clear();
+        console->print("Create square ...\n");
+        console->print("Center x:");
+        int x = std::stoi(console->getStr().c_str()) ;
+        console->print("Center y:");
+        int y = std::stoi(console->getStr().c_str()) ;
+        console->print("length:");
+        int length = std::stoi(console->getStr().c_str()) ;
+
+        ui::CreateSquareCommand* s = new ui::CreateSquareCommand(*shapes, x, y, length, observer);
+        commandStack->execute(s);
+    }));
+
+        // Triangle entry to the menu
+        createMenu.addEntry(ui::MenuEntry("Triangle", 't', [=]()->void {
+        echo();
+        console->clear();
+        console->print("Create triangle ...\n");
+        console->print("Center x:");
+        int x = std::stoi(console->getStr().c_str()) ;
+        console->print("Center y:");
+        int y = std::stoi(console->getStr().c_str()) ;
+        console->print("length:");
+        int length = std::stoi(console->getStr().c_str()) ;
+
+        ui::CreateTriangleCommand* t = new ui::CreateTriangleCommand(*shapes, x, y, length, observer);
+        commandStack->execute(t);
+    }));
 
 
     auto showCreateMenuCmd = [=]() mutable -> void {
