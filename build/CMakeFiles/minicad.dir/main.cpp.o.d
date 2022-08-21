@@ -128,6 +128,7 @@ CMakeFiles/minicad.dir/main.cpp.o: \
  /workspaces/minicad_startingpoint/model/shape.h \
  /workspaces/minicad_startingpoint/model/point.h \
  /workspaces/minicad_startingpoint/model/square.h \
+ /workspaces/minicad_startingpoint/model/triangle.h \
  /workspaces/minicad_startingpoint/ui/commands/command_stack.h \
  /usr/include/c++/11.2.1/stack /usr/include/c++/11.2.1/deque \
  /usr/include/c++/11.2.1/bits/stl_deque.h \
@@ -138,6 +139,8 @@ CMakeFiles/minicad.dir/main.cpp.o: \
  /workspaces/minicad_startingpoint/ui/ncurses/console.h \
  /workspaces/minicad_startingpoint/ui/commands/create_circle_command.h \
  /workspaces/minicad_startingpoint/model/shape.h \
+ /workspaces/minicad_startingpoint/ui/commands/create_square_command.h \
+ /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.h \
  /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.h \
  /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.h \
  /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.h

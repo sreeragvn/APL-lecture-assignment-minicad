@@ -71,4 +71,41 @@ CMakeFiles/minicad.dir/model/triangle.cpp.o: \
  /usr/include/c++/11.2.1/cerrno /usr/include/errno.h \
  /usr/include/bits/errno.h /usr/include/c++/11.2.1/bits/charconv.h \
  /usr/include/c++/11.2.1/bits/basic_string.tcc /usr/include/curses.h \
- /usr/include/ncurses_dll.h /usr/include/stdarg.h /usr/include/unctrl.h
+ /usr/include/ncurses_dll.h /usr/include/stdarg.h /usr/include/unctrl.h \
+ /usr/include/c++/11.2.1/cmath /usr/include/math.h \
+ /usr/include/c++/11.2.1/bits/specfun.h /usr/include/c++/11.2.1/limits \
+ /usr/include/c++/11.2.1/tr1/gamma.tcc \
+ /usr/include/c++/11.2.1/tr1/special_function_util.h \
+ /usr/include/c++/11.2.1/tr1/bessel_function.tcc \
+ /usr/include/c++/11.2.1/tr1/beta_function.tcc \
+ /usr/include/c++/11.2.1/tr1/ell_integral.tcc \
+ /usr/include/c++/11.2.1/tr1/exp_integral.tcc \
+ /usr/include/c++/11.2.1/tr1/hypergeometric.tcc \
+ /usr/include/c++/11.2.1/tr1/legendre_function.tcc \
+ /usr/include/c++/11.2.1/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11.2.1/tr1/poly_hermite.tcc \
+ /usr/include/c++/11.2.1/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11.2.1/tr1/riemann_zeta.tcc \
+ /usr/include/c++/11.2.1/iostream /usr/include/c++/11.2.1/ostream \
+ /usr/include/c++/11.2.1/ios /usr/include/c++/11.2.1/exception \
+ /usr/include/c++/11.2.1/bits/exception_ptr.h \
+ /usr/include/c++/11.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/stddef.h /usr/include/c++/11.2.1/typeinfo \
+ /usr/include/c++/11.2.1/bits/nested_exception.h \
+ /usr/include/c++/11.2.1/bits/ios_base.h \
+ /usr/include/c++/11.2.1/bits/locale_classes.h \
+ /usr/include/c++/11.2.1/bits/locale_classes.tcc \
+ /usr/include/c++/11.2.1/system_error \
+ /usr/include/c++/11.2.1/x86_64-alpine-linux-musl/bits/error_constants.h \
+ /usr/include/c++/11.2.1/stdexcept /usr/include/c++/11.2.1/streambuf \
+ /usr/include/c++/11.2.1/bits/streambuf.tcc \
+ /usr/include/c++/11.2.1/bits/basic_ios.h \
+ /usr/include/c++/11.2.1/bits/locale_facets.h \
+ /usr/include/c++/11.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/c++/11.2.1/x86_64-alpine-linux-musl/bits/ctype_base.h \
+ /usr/include/c++/11.2.1/bits/streambuf_iterator.h \
+ /usr/include/c++/11.2.1/x86_64-alpine-linux-musl/bits/ctype_inline.h \
+ /usr/include/c++/11.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/11.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/11.2.1/bits/ostream.tcc /usr/include/c++/11.2.1/istream \
+ /usr/include/c++/11.2.1/bits/istream.tcc
