@@ -195,7 +195,7 @@ int main() {
             return;
 
         console.print("factor:");
-        int factor = std::stoi(console.getStr().c_str());
+        double factor = std::stod(console.getStr().c_str());
         ui::ScaleShapeCommand* c = new ui::ScaleShapeCommand(shapes[shapeNumber], factor);
         commandStack.execute(c);
     }));
